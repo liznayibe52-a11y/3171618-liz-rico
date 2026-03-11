@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border: 2px solid #61dafb;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 2rem auto;
+}
+
+.counter__display {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #61dafb;
+  margin: 0;
+}
+
+.counter__buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.counter__button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.counter__button:hover {
+  transform: scale(1.05);
+}
+
+.counter__button--increment {
+  background-color: #51cf66;
+  color: white;
+}
+
+.counter__button--decrement {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.counter__button--reset {
+  background-color: #888;
+  color: white;
+}
+
+.counter__button--random {
+  background-color: #c792ea;
+  color: white;
+}
