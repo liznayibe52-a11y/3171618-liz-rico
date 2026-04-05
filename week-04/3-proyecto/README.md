@@ -27,15 +27,14 @@ Este proyecto implementa conceptos como hooks, manejo de estado, renderizado con
 ### Vista principal
 
 
-```
 ![alt text](image.png)
-```
+
 
 ### Filtros y búsqueda
 
-```
+
 ![alt text](image-1.png)
-```
+
 
 ---
 
